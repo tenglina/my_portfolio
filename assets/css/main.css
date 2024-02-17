@@ -47,22 +47,28 @@ svg,img { max-width: 100%; height: auto; }
 .navbar {
 	background-color: #000000;
 	overflow: hidden;
-	text-align: right; /* Align text to the right */
-	width: 100%;
 }
 
 .navbar a {
-	display: inline-block;
 	color: white;
 	text-align: center;
 	padding: 14px 20px;
 	text-decoration: none;
-	
+	float: right;	
 }
 
 .navbar a:hover {
 	background-color: #ffffff;
 	color: black;
+}
+
+.navbar a.active {
+	background-color: #ffb0f1;
+	color: white;
+}
+
+.navbar-right{
+	float:right;
 }
 
 /*-----------------------------------------------------------------
@@ -126,14 +132,12 @@ svg,img { max-width: 100%; height: auto; }
 /*-----------------------------------------------------------------
   6. >>> Section Header Style
 ----------------------------------------------------------------*/
-
 .section-header {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 70px;
 	text-align: center;
 	padding: 70px;
 }
-
 /*-----------------------------------------------------------------
   6. >>> Email Style
 ----------------------------------------------------------------*/
