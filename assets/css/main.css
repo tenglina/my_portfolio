@@ -105,7 +105,7 @@ svg,img { max-width: 100%; height: auto; }
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust min and max width as needed */
-	grid-gap: 20px; /* Adjust this for spacing between grid items */
+	grid-gap: 30px; /* Adjust this for spacing between grid items */
 	max-width: 1500px; /* Adjust the maximum width */
 	margin: 0 auto; /* Center the grid container */
 	padding: 30px; /* Add padding for the margins */
