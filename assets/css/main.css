@@ -126,8 +126,34 @@ svg,img { max-width: 100%; height: auto; }
 
 .grid-item .description {
 	margin-top: 5px;
-	color: #666;
+	color: #dbdbdb;
+	font-size: x-large;
 }
+
+/*-----------------------------------------------------------------
+  7. >>> Project - video demo for game 
+----------------------------------------------------------------*/
+.video-container {
+	margin-top: 30px;
+	display: flex;
+  }
+  
+  .video-container video {
+	height: 30%;
+	width: 35%;
+  }
+  p {
+	color: #c7c2c2;
+	font-size: large;
+	}
+
+.video-text {
+	margin-left: 20px;
+	float: right;
+
+}
+
+
 
 /*-----------------------------------------------------------------
   6. >>> Section Header Style
